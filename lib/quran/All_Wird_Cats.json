@@ -1,0 +1,58 @@
+{
+    "code": 200,
+    "status": "OK",
+    "data": {
+        "all_wird_cats": [
+            {
+                "wird_cat_id": 1,
+                "wird_cat_title": "Dawn Prayer Litany",
+                "wird_cat_title_ar": "ورد صَلاَةِ الْفَجْر"
+            },
+            {
+                "wird_cat_id": 2,
+                "wird_cat_title": "Sunrise Prayer Litany",
+                "wird_cat_title_ar": "ورد صلاة الضحى"
+            },
+            {
+                "wird_cat_id": 3,
+                "wird_cat_title": "Noon Prayer Litany",
+                "wird_cat_title_ar": "ورد صلاة الظهر"
+            },
+            {
+                "wird_cat_id": 4,
+                "wird_cat_title": "Afternoon Prayer Litany",
+                "wird_cat_title_ar": "ورد صلاة العصر"
+            },
+            {
+                "wird_cat_id": 5,
+                "wird_cat_title": "Sunset Prayer Litany",
+                "wird_cat_title_ar": "وِرْدُ صَلَاْةِ الـْمَغْرِب"
+            },
+            {
+                "wird_cat_id": 6,
+                "wird_cat_title": "Night Prayer Litany",
+                "wird_cat_title_ar": "وِرْدُ صَلَاْةِ الْعِشَاْء"
+            },
+            {
+                "wird_cat_id": 7,
+                "wird_cat_title": "Pre-dawn Litany",
+                "wird_cat_title_ar": "صَلاَةِ التَهَجُّد"
+            },
+            {
+                "wird_cat_id": 8,
+                "wird_cat_title": "Friday Morning Salawat Council",
+                "wird_cat_title_ar": "وِرْد مجلس الصلاة على النبي صباح الجمعة"
+            },
+            {
+                "wird_cat_id": 9,
+                "wird_cat_title": "Late Friday Afternoon Litany",
+                "wird_cat_title_ar": "وِرْد ساعة عَصْر الْجُمُعَة"
+            },
+            {
+                "wird_cat_id": 10,
+                "wird_cat_title": "Appendix",
+                "wird_cat_title_ar": "مُلْحَقْ"
+            }
+        ]
+    }
+}
