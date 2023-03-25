@@ -425,11 +425,13 @@ class _InitScreenState extends State<InitScreen> {
         break;
       case "3":
         page = QuranScreen(audioHandler);
+
         break;
       case "4":
         page = null;
         break;
     }
-    Navigator.push(context, MaterialPageRoute(builder: (context) => page));
+    if (page != null)
+      Navigator.push(context, MaterialPageRoute(builder: (context) => page));
   }
 }
