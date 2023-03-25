@@ -24,8 +24,6 @@ import 'package:provider/provider.dart';
 
 /// shared preferences services
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:wird_book_share/screens/home_screen.dart';
-import 'package:wird_book_share/screens/wirds_screen.dart';
 
 /// Widgets classes
 import 'package:wird_book_share/widget/search_widget.dart';
@@ -58,7 +56,7 @@ import 'package:google_fonts/google_fonts.dart';
 /// screens
 import 'package:wird_book_share/main.dart';
 import 'package:wird_book_share/screens/setting_screen.dart';
-import 'package:wird_book_share/screens/sub_wirds_screen.dart';
+
 import 'package:wird_book_share/screens/quran_screen.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:percent_indicator/percent_indicator.dart';
@@ -420,16 +418,16 @@ class _InitScreenState extends State<InitScreen> {
     var page;
     switch (id) {
       case "1":
-        page = HomeScreen(id, audioHandler);
+        page = null;
         break;
       case "2":
-        page = HomeScreen(id, audioHandler);
+        page = null;
         break;
       case "3":
         page = QuranScreen(audioHandler);
         break;
       case "4":
-        page = AllWirdSubCatPage("10", "Appendix", audioHandler);
+        page = null;
         break;
     }
     Navigator.push(context, MaterialPageRoute(builder: (context) => page));

@@ -19,7 +19,7 @@ import 'localization/language_constants.dart';
 import 'package:wird_book_share/localization/demo_localization.dart';
 
 /// screen
-import 'package:wird_book_share/screens/home_screen.dart';
+
 import 'package:wird_book_share/screens/setting_screen.dart';
 import 'package:flutter/services.dart';
 
